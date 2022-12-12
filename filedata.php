@@ -1,0 +1,12 @@
+<?php
+$fullname=$_POST["full-name"];
+$email=$_POST["email"];
+$phonenumber=$_POST["ph-number"];
+$msg=$_POST["message"];
+$file=fopen("test.txt","a");
+fwrite($file,$fullname);
+fwrite($file,$email);
+fwrite($file,$phonenumber);
+fwrite($file,$msg);
+fclose($file);
+?>

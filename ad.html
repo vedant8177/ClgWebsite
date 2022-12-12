@@ -1,0 +1,135 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>
+			Admission Form
+		</title>
+	</head>
+	<style>
+		#body90 {
+		background-color: black;
+		color: white;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		}
+		#h11 {
+		font-size: 30px;
+        background: -webkit-linear-gradient(#00a1ff, #00ff8f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+		text-align: center;
+		}
+		#rqrid {
+		background-color: black;
+		border-radius: 20px;
+		color: white;
+		text-align: center;
+		}
+		#h111 {
+		text-align: center;
+		font-size: 30px;
+        background: -webkit-linear-gradient(#00a1ff, #00ff8f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+		}
+		#forms {
+			background-color: white;
+			color: black;
+			padding-left: 30;
+			border-radius: 20px;
+		}
+		input[type=text] {
+            border: 2px solid grey;
+            border-radius: 10px;
+        }
+		input[type=tel] {
+			border: 2px solid grey;
+			border-radius: 10px;
+		}
+		input[type=email] {
+			border: 2px solid grey;
+			border-radius: 10px;
+		}
+		#submit {
+            background-color: green;
+            color: white;
+            border-style: double;
+            height: 40px;
+            width: 100px;
+            font: bold 15px arial, sans-serif;
+            text-shadow: none;
+        }
+        #reset {
+            background-color: red;
+            color: white;
+            border-style: double;
+            height: 40px;
+            width: 100px;
+            font: bold 15px arial, sans-serif;
+            text-shadow: none;
+		}
+		.names {
+			height: 30px;
+            width: 300px;
+		}
+	</style>
+<body id="body90">
+	<div id="rqrid">
+<h2 id="h11"> Required Documents </h2>
+1. Leaving Certificat  &nbsp; &nbsp; &nbsp; 2. Marksheet &nbsp; &nbsp; 3.Caste Certificate<br><br>
+4.Birth Certificate    &nbsp; &nbsp;    5. Aadhar Card   &nbsp; &nbsp; 6.Income Certificate<br><br>
+7.Domicile Certificate  &nbsp; &nbsp; 8.Nationality &nbsp; &nbsp; &nbsp; 9.Bank Passbook<br><br>
+
+**  All the above mentioned document's Xerox copies should be attached to the form.  **
+</p><br>
+</div>
+<div id="forms">
+<H1 id="h111">Admission Form</H1>
+<FORM id="dhmp" METHOD="POST">
+Student's Name :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="names" type="text" NAME="SName" PLACEHOLDER=" First Name" required><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT class="names" TYPE="text" NAME="SName" PLACEHOLDER=" Middle Name" required> <br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT class="names" TYPE="text" NAME="SName" PLACEHOLDER=" Last Name" required><br><br>
+Father's Name :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT class="names" TYPE="text" NAME="FName" PLACEHOLDER=" First Name" required><br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT  class="names" TYPE="text" NAME="SName" PLACEHOLDER=" Middle Name" required><br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT class="names" TYPE="text" NAME="SName" PLACEHOLDER=" Last Name" required><br><br>
+Mother's Name :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<INPUT class="names" TYPE="text" placeholder=" First Name" NAME="MName" required><br><br>
+Gender : Male <INPUT TYPE="RADIO" NAME="GENDER" required> &nbsp; &nbsp; &nbsp;
+ Female<INPUT TYPE="RADIO" NAME="GENDER"><br><br>
+Caste : <br><br><INPUT class="names" TYPE="text" placeholder=" Ex.Bramhin" NAME="CASTE" required><br><br>
+	Category :<br><br>  SC <INPUT TYPE="radio" NAME="CATEGORY"> ST <INPUT TYPE="radio" NAME="CATEGORY">
+	<br><br>OPEN <INPUT TYPE="radio" NAME="CATEGORY"> VJNT <INPUT TYPE="radio" NAME="CATEGORY"> OBC <INPUT TYPE="radio" NAME="CATEGORY">
+	<br><br>
+Admission Sought To : <SELECT>
+	 <OPTION>BCA F.Y.
+	 <OPTION>BCA S.Y.
+	 <OPTION>BCA T.Y.
+	 <OPTION>MCA F.Y.
+	 <OPTION>MCA S.Y.
+	 <OPTION>BA F.Y.	 
+	 <OPTION>BA S.Y.
+	 <OPTION>BA T.Y.	
+		 </SELECT><br><br>
+Need Transport Facility : <INPUT TYPE="CHECKBOX" NAME="TRANSPORT">Yes  
+			  <INPUT TYPE="CHECKBOX" NAME="TRANSPORT"">No<br><br>
+Address :<br><br> <INPUT class="names" TYPE="text" NAME="ADDRESS" SIZE="50" placeholder="House No., Building Name & Road Name, Area, Colony" required><br><br>
+Medical History :<br><br> <INPUT class="names" TYPE="text" NAME="MEDICAL" required><br><br>
+Name of the Last College  Attended :<br><br> <INPUT class="names" TYPE="text" NAME="school" SIZE="80" placeholder=" Ex. CSRM Kinwat" required><br><br>
+Date of Birth : <INPUT class="names" TYPE="DATE" NAME="DOB" VALUE="DATE" required><br><br>
+Passed Class :<br><br> <INPUT class="names" TYPE="text" NAME="class" placeholder=" Ex. 10th, 12th" required><br><br>
+Place of Birth :<br><br> <INPUT class="names" TYPE="text" NAME="Place" SIZE="40" placeholder=" City Name" required><br><br>
+Skills/Talent of the Child :<br><br> <INPUT class="names" TYPE="text" NAME="Skill" placeholder=" Ex. Programming, Drawing" SIZE="35" required><br><br>
+Father's Qualification :<br><br> <INPUT class="names" TYPE="text" NAME="Qualification" placeholder=" Ex. MCA Passed Out" required><br><br>
+Father's Occupation :<br><br> <INPUT class="names" TYPE="text" NAME="Occupation" placeholder=" Ex. Bussiness" required><br><br>
+Mother's Qualification :<br><br> <INPUT class="names" TYPE="text" NAME="Qualification" placeholder=" Ex. BCA Passed Out"><br><br>
+Mother's Occupation :<br><br> <INPUT class="names" TYPE="text" NAME="Occupation" placeholder=" Ex. House Wife, Bussiness required" required><br><br>
+Mobile No.:<br><br> <INPUT class="names" TYPE="tel" NAME="MO. NO." placeholder=" +91 Mobile number" required><br><br>
+E-mail :<br><br> <INPUT class="names" TYPE="email" NAME="email" PLACEHOLDER= @gmail.com SIZE="40"><br><br>
+<INPUT id="submit" value="Submit" TYPE="SUBMIT">&nbsp;&nbsp;
+<INPUT id="reset" TYPE="RESET"><br><br>
+</FORM>
+</div>
+<footer align="center">
+	<strong>&copy; COPYRIGHT 2020 | CSRM ALL RIGHTS RESERVED</strong><br><br>
+	<a href="http://free2try.ml/index.html"><strong>HOME</strong></a>
+</footer>
+</body>
+</HTML>
